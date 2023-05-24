@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.upper-header {
+    display: flex;
+    justify-content: center;
+    background-color: #3498db;
+    align-items: center;
+    color: white;
+}
+#right-text {
+    margin-left: 1em;
+    color: #d7d6d5;
+}
+.main {
+    border: 1px solid lightgrey;
+    margin-top: 1.5em;
+    margin-left: 0.7em;
+    margin-right: 0.7em;
+    background-color: white;
+}
+.bottom-header {
+    text-align: center;
+}
+.bottom-header > h2 {
+    margin-top: 1.5em;
+    margin-bottom: 0.5em;
+}
+.bottom-header > p {
+    margin: 0;
+    margin-bottom: 0.5em;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+    margin-bottom: 1em;
+}
+#nav-persegi {
+    background-color: #3379b7;
+    color: white;
+    border: 1px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0em;
+}
+#nav-ppanjang {
+    width: 100%;
+    text-align: center;
+    padding: 0.5em 0em;
+    color: #3379b7;
+}
+.section {
+    border: 1px solid #2880b9;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
+}
+.section > h2 {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+    background-color: #3379b7;
+    color: white;
+}
+.section > img {
+    display: block;
+    margin: 1em auto;
+    width: 10%;
+}
+.section > p {
+    margin-left: 1em;
+}
+.formula {
+    text-align: center;
+}
+.perhitungan {
+    text-align: center;
+}
+.perhitungan > h2 {
+    border-top: ridge;
+    padding-top: 1em;
+    margin-bottom: 0.3em;
+}
+.perhitungan > p {
+    margin-left: 1em;
+    margin-bottom: 0;
+    margin-top: 0;
+    text-align: justify;
+}
+.input-box {
+    width: -webkit-fill-available;
+    padding: 8px 10px;
+    margin: 0px 1em;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#rumus-luas {
+    margin-top: 1.5em;
+}
+#rumus-keliling {
+    margin-top: 1.5em;
+}
+.input-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+.hitung {
+    background-color: #3379b7;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 12px;
+    border: none;
+}
+.hitung:hover {
+    opacity: 0.5;
+}
+.reset-button {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin-top: 3em;
+    margin-bottom: 2em;
+}
+.reset {
+    background-color: #efad4f;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 11px;
+    border: none;
+    margin-right: 1em;
+}
+.reset:hover {
+    opacity: 0.5;
+}
+@media only screen and (max-width: 800px){
+    .section > img {
+        display: block;
+        margin: 1em auto;
+        width: 15%;
+    }
+}
+@media only screen and (max-width: 600px){
+    .section > img {
+        display: block;
+        margin: 1em auto;
+        width: 30%;
+    }
+}
